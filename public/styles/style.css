@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+html,
+body, main {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    z-index: -999;
+}
+
+nav {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background: #f12711;
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right, #f5af19, #f12711);
+    border: 1px solid orangered;
+    box-shadow: 1px 1px 1px 1px purple;
+    z-index: 999;
+    opacity: .9;
+}
+
+ul > li {
+    display: inline-block;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    top: 22px;
+    position: relative
+}
+
+ul > li > a:hover {
+    color: mediumpurple;
+    opacity: .6;
+}
+
+main {
+    background: #f12711;
+    background: -webkit-linear-gradient(to left, #f5af19, #f12711);
+    background: linear-gradient(to left, #f5af19, #f12711);
+    opacity: .7
+}
+
+.logic, .cnn, .aapl {
+    position: relative;
+    color: white;
+    width: 60%;
+    height: 60%;
+    left: 15%;
+    top: 20%;
+}
+
+footer {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background: #f12711;
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right, #f5af19, #f12711);
+    border: 1px solid orangered;
+    box-shadow: 1px 1px 1px 1px purple;
+    bottom: 0;
+    z-index: 999;
+    opacity: .8;
+}
